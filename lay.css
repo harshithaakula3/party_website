@@ -1,0 +1,75 @@
+body
+{
+	background-image: url('party.jpg');
+	color: floralwhite;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: "papyrus",fantasy;
+}
+body h1
+{
+	color: #800080;
+}
+.box
+
+{
+	width: 400px;
+	padding: 40px;
+	border-radius: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	border-style: solid;
+	border-color:#40E0D0;
+	font-family: "Georgia",serif;
+	font-size: 25px;
+	font-weight: 100px;	
+	transform: translate(-50%,-50%);
+}
+.code
+{
+	padding: 10px;
+}
+.code input[type="text"],.code input[type="password"]{
+	border: 2px solid #3498db;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background: none;
+	border-radius: 24px;
+	width: 200px;
+	padding: 14px;
+	color: #D3D3D3;
+	outline: none;
+	transition: 0.25s;
+
+}
+.code input[type="text"]:focus,.code input[type="password"]:focus{
+	width: 300px;
+	border-color: #00FF7F;
+}
+.button input[type="submit"]
+{
+	border: 2px solid black;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	background: none;
+	border-radius: 24px;
+	width: 200px;
+	padding: 14px 10px;
+	color: white;
+	outline: none;
+}
+.button input[type="submit"]:hover
+{
+	background: #C71585;
+}
+.code label
+{
+	color:#FFFAFA;
+}
